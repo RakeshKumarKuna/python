@@ -19,6 +19,8 @@ print("======================================")
 lambdaresult=lambda a:True if(a<0) else False
 negativedata=filter(lambdaresult,lst)
 print(list(negativedata))
+str(45)
+bool
 
 
 #filting the data based the values are even or not
