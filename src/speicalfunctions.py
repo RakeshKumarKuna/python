@@ -34,3 +34,12 @@ def getevennumber(n):
     return filter(lambda a:a%2==0,range(0,n))
 print(list(getevennumber(20)))
 
+
+
+class Test:
+    def __init__(self):
+        self.data=[45,78,96,12,47,89,24,68,15,47,26,38,49,59]
+    
+    def geteven(self):
+        evennumbers=filter(lambda a:a%2==0,self.data)
+        return list(evennumbers)
